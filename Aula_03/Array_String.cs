@@ -7,6 +7,8 @@ aulas[0] = aulaIntro;
 aulas[1] = aulaModelando;
 aulas[2] = aulaSets;
 
-foreach (var aula in aulas) {
-    Console.WriteLine(aula);
+for (int i=0; i<aulas.Length; i++) {
+    Console.WriteLine(aulas[i]);
 }
+
+Console.WriteLine("Aula modelando está no indíce " + Array.IndexOf(aulas, aulaModelando));
