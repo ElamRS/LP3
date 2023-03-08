@@ -34,3 +34,7 @@ switch(Console.ReadLine()) {
         Console.WriteLine("Opção inválida escolhida.");
         break;
 }
+
+
+Console.Write("Pressione qualquer tecla para fechar a calculadora de console.");
+Console.ReadKey();
